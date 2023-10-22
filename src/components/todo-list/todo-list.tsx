@@ -1,4 +1,4 @@
-import { FC, useMemo } from 'react';
+import { FC } from 'react';
 import { TodoItem } from '../todo-item/todo-item';
 import styles from './todo-list.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
