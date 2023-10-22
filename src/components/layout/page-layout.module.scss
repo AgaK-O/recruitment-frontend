@@ -1,0 +1,35 @@
+@import '../../assets/styles/variables.scss';
+
+.background {
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    min-height: 100%;
+    padding: 20px 10px;
+}
+
+.header {
+    color: $white;
+    font-family: Palatino;
+    font-size: 3em;
+    margin: 0 30px 30px;
+    text-shadow: 1px 1px 4px $cole;
+
+    @media(min-width: $tablet-bp) {
+        font-size: 4em;
+    }
+}
+
+.content {
+    background-color: $white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    max-width: $content-width;
+    padding: 40px;
+    width: 100%;
+}
