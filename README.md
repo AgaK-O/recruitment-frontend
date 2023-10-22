@@ -1,3 +1,9 @@
+# Simple todo list
+Project developed with React & TypeScript, Redux and SCSS as part of the recruitment process for Avalio.
+To see the deployed version open [Aga's Todo](https://agas-todo.netlify.app/).
+
+To see the code and run the development mode please follow these instructions:
+
 ## Available Scripts
 
 In the project directory, you can run:
