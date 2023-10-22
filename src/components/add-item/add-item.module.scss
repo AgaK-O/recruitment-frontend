@@ -11,8 +11,13 @@
     border: 1px solid $light-gray;
     border-radius: 5px;
     display: block;
+    font-size: 16px;
     outline-color: grey;
     padding: 10px 3em;
+
+    @media (min-width: $tablet-bp) {
+        font-size: inherit;
+    }
 }
 
 .button {
