@@ -27,7 +27,4 @@ describe('Todo item component', () => {
         fireEvent.click(screen.getByRole('button', { hidden: false }));
         expect(handleRemove).toHaveBeenCalled();
     })
-
-
-
 });
